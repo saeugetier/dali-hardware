@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2015 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MCP2003
+#
+DEF MCP2003 U 0 40 Y Y 1 L N
+F0 "U" 0 0 50 H I L CNN
+F1 "MCP2003" 0 0 50 H I L CNN
+$FPLIST
+ SO-08
+ DIL8
+$ENDFPLIST
+DRAW
+P 2 0 0 10 -500 300 400 300 N
+P 2 0 0 10 400 300 400 -400 N
+P 2 0 0 10 400 -400 -500 -400 N
+P 2 0 0 10 -500 -400 -500 300 N
+X RXD 1 -600 100 100 R 40 40 0 0 O 
+X CS 2 -600 -200 100 R 40 40 0 0 I 
+X !WAKE 3 -600 -300 100 R 40 40 0 0 B 
+X TXD 4 -600 0 100 R 40 40 0 0 I 
+X VSS 5 200 -500 100 U 40 40 0 0 I 
+X LBUS 6 500 0 100 L 40 40 0 0 B 
+X VBB 7 500 200 100 L 40 40 0 0 I 
+X VREN 8 -600 200 100 R 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
