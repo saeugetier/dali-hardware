@@ -1,4 +1,4 @@
-update=Mo 30 Mai 2016 19:49:01 CEST
+update=Di 31 Mai 2016 09:16:43 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,3 +67,4 @@ LibName35=kicad-library/library/ftdi
 LibName36=kicad-library/library/ESD_Protection
 LibName37=kicad-library/library/diode
 LibName38=quartz
+LibName39=linear_tech
